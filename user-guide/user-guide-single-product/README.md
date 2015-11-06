@@ -23,4 +23,34 @@ examine the other templates in /docs-templates/user-guide.
 
 Customization instructions
 --------------------------
-COMING SOON
+Copy all the parts from this folder to your own GitHub repo,
+then customize them there to present your own content.
+
+**index.rst**
+This is the starting point for a guide to
+one product.
+``index.rst`` shapes the guide
+to help readers notice
+important features of the product and learn to use them.
+
+- Replace all occurrences of ``XXexampleXX``
+  with something identifying this
+  product.
+  If you can, name the product consistently with the name for it that
+  readers encounter elsewhere in their experiences at Rackspace,
+  especially in control panels.
+
+- Create a contact-us page with instructions for readers
+  who have suggestions or questions (``:ref:``).
+
+- Create pages or sections
+  introducing the guide itself,
+  introducing the product covered in the guide,
+  introducing the use of product interfaces,
+  introducing configuration options,
+  introducing pre-production hardening steps,
+  and introducing guidelines for normal operation (`` toctree::``).
+
+**conf.py**
+
+MORE COMING SOON
