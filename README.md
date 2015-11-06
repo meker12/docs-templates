@@ -11,22 +11,6 @@ Documentation is authored and built locally using the Sphinx documentation gener
 source files in restructured text format which is the same technology behind content 
 delivered by using ReadtheDocs.
 
-###Build and deploy
-
-  Build content locally by using the Sphinx build make utility to get output rendered 
-  with the default Sphinx templates and interface. 
-
-  To deliver Rackspace-branded documentation build your content with the following build 
-  technologies.
-   
-  Build a local preview of Rackspace-branded content by using the 
-  [Deconst local client](https://github.com/deconst/client]. 
-  
-  To build and deploy to a production server, contact the Developer documentation team 
-  for information on build integration and wiring content into the Rackspace documentation 
-  landing pages.
- 
-
 ###User Guide template
 
 
@@ -54,6 +38,20 @@ The Rackspace build and deploy platform also supports Jekyll projects for other 
 - [Developer blog](https://github.com/rackerlabs/docs-developer-blog)
 - [Carina documentation](https://https://github.com/getcarina/getcarina.com)
 
+##Build and deploy
+
+  Build content locally by using the Sphinx build make utility to get output rendered 
+  with the default Sphinx templates and interface. 
+
+  To deliver Rackspace-branded documentation build your content with the following build 
+  technologies.
+   
+  Build a local preview of Rackspace-branded content by using the 
+  [Deconst local client](https://github.com/deconst/client]. 
+  
+  To build and deploy to a production server, contact the Developer documentation team 
+  for information on build integration and wiring content into the Rackspace documentation 
+  landing pages.
 
 ####Docbook templates (Deprecated)
 
