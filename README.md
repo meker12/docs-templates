@@ -28,7 +28,7 @@ Sphinx documentation project to create a Developer Guide for a a service API lik
 **Audience:**  Application developers, operations, advanced users who want to use API services by 
   using submitting API requests from the command line or by using CLI technologies.
   
-Contents: 
+**Contents:** A single-page html content architecture with the following sections: 
 - Developer Guide
 - Getting Started with the API (cURL or CLI)
 - API Reference
@@ -43,18 +43,18 @@ The Rackspace build and deploy platform also supports Jekyll projects for other 
 
 ##Build and deploy
 
-  Build content locally by using the Sphinx build make utility to get output rendered 
+You can build deliverables based on these templates using any of the following options:
+
+- Local builds with default Sphinx template
+  Use the Sphinx build make utility to get output rendered 
   with the default Sphinx templates and interface. 
 
-  To deliver Rackspace-branded documentation build your content with the following build 
-  technologies.
-   
-  Build a local preview of Rackspace-branded content by using the 
-  [Deconst local client](https://github.com/deconst/client]. 
-  
-  To build and deploy to a production server, contact the Developer documentation team 
-  for information on build integration and wiring content into the Rackspace documentation 
-  landing pages.
+- Local preview with Rackspace branding and UX
+  Install and use the [Deconst local client](https://github.com/deconst/client].
+
+- For server builds and production deployment, contact the Developer documentation team for information on build 
+  integration options and how to wire content into the [Docs landing page](https://developer.rackspace.com/docs/) on 
+  developer.rackspace.com. 
 
 ####Docbook templates (Deprecated)
 
