@@ -5,7 +5,7 @@ Use the templates in this library to create developer and user
 documentation that is compatible with the [Rackspace documentation 
 build and deploy platform](https://github.com/deconst). 
 
-##Sphinx templates
+####Sphinx templates
 
 Documentation is authored and built locally using the Sphinx documentation generator with 
 source files in restructured text format which is the same technology behind content 
@@ -25,17 +25,16 @@ Sphinx documentation project to create a User for a Rackspace service or product
 Sphinx documentation project to create a Developer Guide for a a service API like the 
 [Cloud CDN API documentation](https://developer.rackspace.com/docs/cdn/v1/developer-guide/).
 
-- Audience
-  Application developers, operations, advanced users who want to use API services by 
+**Audience:**  Application developers, operations, advanced users who want to use API services by 
   using submitting API requests from the command line or by using CLI technologies.
   
-- Contents 
-  - Developer Guide
-  - Getting Started with the API (cURL or CLI)
-  - API Reference
-  - Release Notes
+Contents: 
+- Developer Guide
+- Getting Started with the API (cURL or CLI)
+- API Reference
+- Release Notes
 
-##Jekyll templates
+####Jekyll templates
 
 The Rackspace build and deploy platform also supports Jekyll projects for other types of documentation content. For sample projects, see the following repositories:
 
