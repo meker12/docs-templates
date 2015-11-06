@@ -15,24 +15,23 @@ delivered by using ReadtheDocs.
 
 Sphinx documentation project to create a User for a Rackspace service or product offering.
 
-**Audience:**
-  Service consumers that want to use the product through the Cloud Control panel.
+- Audience: Service consumers that want to use the product through the Cloud Control panel.
    
-**Contents:**
+- Contents:
 
 **Developer Guide template**
 
 Sphinx documentation project to create a Developer Guide for a a service API like the 
 [Cloud CDN API documentation](https://developer.rackspace.com/docs/cdn/v1/developer-guide/).
 
-**Audience:**  Application developers, operations, advanced users who want to use API services by 
+- Audience:  Application developers, operations, advanced users who want to use API services by 
   using submitting API requests from the command line or by using CLI technologies.
   
-**Contents:** A single-page html content architecture with the following sections: 
-- Developer Guide
-- Getting Started with the API (cURL or CLI)
-- API Reference
-- Release Notes
+- Contents: A single-page html content architecture with the following sections: 
+  - Developer Guide
+  - Getting Started with the API (cURL or CLI)
+  - API Reference
+  - Release Notes
 
 ####Jekyll templates
 
