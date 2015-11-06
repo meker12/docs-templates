@@ -15,10 +15,10 @@ delivered by using ReadtheDocs.
 
 Sphinx documentation project to create a User for a Rackspace service or product offering.
 
-- Audience
+**Audience:**
   Service consumers that want to use the product through the Cloud Control panel.
    
-- Contents
+**Contents:**
 
 **Developer Guide template**
 
