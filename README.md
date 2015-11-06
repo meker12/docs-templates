@@ -1,16 +1,69 @@
-PRODUCTNAME Documentation
+Rackspace doc templates 
 =========================
 
-This is a template project for a API Documentation projects.
+Use the templates in this library to create developer and user 
+documentation that is compatible with the [Rackspace documentation 
+build and deploy platform](https://github.com/deconst). 
 
-To initialize a new project, run "initialize.py". You will be prompted for the following values:
+##Sphinx templates
 
-PREFIX: For example "cdn" in "cdn-devguide.xml". This value also serves as the first element in the directory structure on docs.rackspace.com, for example: http://docs.rackspace.com/cdn/api/v1.0/cdn-gettingstarted"
+Documentation is authored and built locally using the Sphinx documentation generator with 
+source files in restructured text format which is the same technology behind content 
+delivered by using ReadtheDocs.
 
-PRODUCTNAME: For example "Cloud CDN".
+###Build and deploy
 
-VERSION: For example "v1.0".
+  Build content locally by using the Sphinx build make utility to get output rendered 
+  with the default Sphinx templates and interface. 
 
-The script replaces these strings in the source files and then removes itself and the .git directory.
+  To deliver Rackspace-branded documentation build your content with the following build 
+  technologies.
+   
+  Build a local preview of Rackspace-branded content by using the 
+  [Deconst local client](https://github.com/deconst/client]. 
+  
+  To build and deploy to a production server, contact the Developer documentation team 
+  for information on build integration and wiring content into the Rackspace documentation 
+  landing pages.
+ 
 
-You can then run "git init" and use "git remote add origin" to add an origin remote and push it to a repo for the doc.
+###User Guide template
+
+
+###Developer Guide template
+
+Sphinx documentation project to create a Developer Guide for a a service API like the 
+[Cloud CDN API documentation](https://developer.rackspace.com/docs/cdn/v1/developer-guide/).
+  
+####Audience 
+   
+Application developers, operations, advanced users who want to use API services by 
+using submitting API requests from the command line or by using CLI technologies.
+  
+####Contents 
+  
+   - Developer Guide
+   - Getting Started with the API (cURL or CLI)
+   - API Reference
+   - Release Notes
+
+##Jekyll templates
+
+The Rackspace build and deploy platform also supports Jekyll projects for other types of documentation content. For sample projects, see the following repositories:
+
+- [Developer blog](https://github.com/rackerlabs/docs-developer-blog)
+- [Carina documentation](https://https://github.com/getcarina/getcarina.com)
+
+
+####Docbook templates (Deprecated)
+
+Documentation is authored and build locally using DocBook, Oxygen editor, and the maven 
+Jenkins tool chain. 
+
+You can install DocBook templates by using the Python project in the DocBook folder 
+to create the DocBook source and build files for authoring and delivering the content. The 
+project provides resources for a full set of Rackspace API service documentation including 
+a Getting Started Guide, Release Notes, and Developer Guide.  
+
+The resulting project can be built and deployed to [docs.rackspace.com](https://docs.rackspace.com) or 
+[docs-internal.rackspace.com](https://docs-internal.rackspace.com).
