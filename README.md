@@ -1,5 +1,5 @@
-Rackspace doc templates 
-=========================
+
+###Rackspace doc templates
 
 Use the templates in this library to create developer and user 
 documentation that is compatible with the [Rackspace documentation 
@@ -11,25 +11,29 @@ Documentation is authored and built locally using the Sphinx documentation gener
 source files in restructured text format which is the same technology behind content 
 delivered by using ReadtheDocs.
 
-###User Guide template
+**User Guide template**
 
+Sphinx documentation project to create a User for a Rackspace service or product offering.
 
-###Developer Guide template
+- Audience
+  Service consumers that want to use the product through the Cloud Control panel.
+   
+- Contents
+
+**Developer Guide template**
 
 Sphinx documentation project to create a Developer Guide for a a service API like the 
 [Cloud CDN API documentation](https://developer.rackspace.com/docs/cdn/v1/developer-guide/).
+
+- Audience
+  Application developers, operations, advanced users who want to use API services by 
+  using submitting API requests from the command line or by using CLI technologies.
   
-####Audience 
-   
-Application developers, operations, advanced users who want to use API services by 
-using submitting API requests from the command line or by using CLI technologies.
-  
-####Contents 
-  
-   - Developer Guide
-   - Getting Started with the API (cURL or CLI)
-   - API Reference
-   - Release Notes
+- Contents 
+  - Developer Guide
+  - Getting Started with the API (cURL or CLI)
+  - API Reference
+  - Release Notes
 
 ##Jekyll templates
 
