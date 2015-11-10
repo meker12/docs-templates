@@ -84,3 +84,9 @@ important features of the product and learn to use them.
 
 - update ``"contentIDBase": "https://github.com/rackerlabs/XXexampleXX/"``
   to identify the GitHub repository containing this guide's doc source
+
+**.travis.yml**
+
+- This file has credentials for production and staging servers,
+  and for notifications in Slack.
+  I don't know how to generate them.
