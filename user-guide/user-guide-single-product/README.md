@@ -79,3 +79,8 @@ important features of the product and learn to use them.
 
 - update the remainder of ``toc.rst`` to list sections in the order they should
   appear in the left-hand navigation bar
+
+**_deconst.json**
+
+- update ``"contentIDBase": "https://github.com/rackerlabs/XXexampleXX/"``
+  to identify the GitHub repository containing this guide's doc source
