@@ -18,10 +18,8 @@ first tasks:
 
 * :kc-article:`Obtain your API key <view-and-reset-your-api-key>`
   for use with
-  :ref:`CLIs <cloud-interfaces-cli>`,
-  :ref:`SDKs <sdk>`,
-  and
-  :ref:`APIs <direct-api-access>`
+  :ref:`CLIs <cli>`,
+  :ref:`APIs <api>`.
 
 * :kc-article:`Create additional account users <managing-role-based-access-control-rbac>`
   and give them
