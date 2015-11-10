@@ -8,6 +8,8 @@ Rackspace Guide to XXexampleXX
 
 This is a guide to XXexampleXX.
 
+``.. include:: /_common/warning-draft.txt``
+
 * :ref:`XXexampleXX-product-concepts` introduces key ideas to help you
   learn about XXexampleXX.
 
@@ -22,6 +24,13 @@ This is a guide to XXexampleXX.
 
 * :ref:`XXexampleXX-api` introduces you to writing your own software to interact
   with XXexampleXX.
+
+.. figure:: /_images/cloudimagesharing.png
+   :alt: The producer has an independent
+   relationship with each consumer.
+
+   *The producer has an independent
+   relationship with each consumer.*
 
 We want to hear what you think about this guide.
 If you have a suggestion regarding the content,

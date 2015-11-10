@@ -24,7 +24,9 @@ examine the other templates in /docs-templates/user-guide.
 Customization instructions
 --------------------------
 Copy all the parts from this folder to your own GitHub repo,
-then customize them there to present your own content.
+then customize them to present your own content as noted here.
+
+### Parts that are your content
 
 **index.rst**
 
@@ -51,6 +53,43 @@ important features of the product and learn to use them.
   introducing configuration options,
   introducing pre-production hardening steps,
   and introducing guidelines for normal operation (`` toctree::``).
+
+  Make these consistent with the navigation structure you describe
+  in ``_toc.rst``.
+
+**/_images/**
+
+- Store images here that you want to include anywhere
+  in the guide.
+
+  For example, if you have a drawing in ``/_images/cloudimagesharing.png``,
+  you can include it anywhere in the guide with
+  ``.. figure:: /_images/cloudimagesharing.png``.
+
+  You can see this demonstrated at ``index.rst``.
+  Remove the demonstration if you do not wish to include it in
+  the published guide.
+
+- If an image requires a source document for maintenance,
+  include that source document in ``/_images/``.
+
+  For example, cloudimagesharing.png was created at www.draw.io;
+  you can change it there by opening cloudimagesharing.xml.
+
+**/_common/**
+
+- Store text fragments here that you want to include anywhere
+  in the guide.
+
+  For example, if you have a warning in ``/_common/warning-draft.txt``,
+  you can include it anywhere in the guide with
+  ``.. include:: /_common/warning-draft.txt``.
+
+  You can see this demonstrated at ``index.rst``.
+  Remove the demonstration if you do not wish to include it in
+  the published guide.
+
+### Parts that assemble your content
 
 **conf.py**
 
