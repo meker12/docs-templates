@@ -90,3 +90,35 @@ important features of the product and learn to use them.
 - This file has credentials for production and staging servers,
   and for notifications in Slack.
   I don't know how to generate them.
+
+**/_images/**
+
+- Store images here that you want to include anywhere
+  in the guide.
+
+  For example, if you have a drawing in ``/_images/cloudimagesharing.png``,
+  you can include it anywhere in the guide with
+  ``.. figure:: /_images/cloudimagesharing.png``.
+
+  You can see this demonstrated at ``index.rst``.
+  Remove the demonstration if you do not wish to include it in
+  the published guide.
+
+  If the publishable image requires a source document for maintenance,
+  include that source document in ``/_images/``.
+
+  For example, cloudimagesharing.png was created at www.draw.io;
+  you can change it there by opening cloudimagesharing.xml.
+  
+**/_common/**
+
+- Store text fragments here that you want to include anywhere
+  in the guide.
+
+  For example, if you have a warning in ``/_common/warning-draft.txt``,
+  you can include it anywhere in the guide with
+  ``.. include:: /_common/warning-draft.txt``.
+
+  You can see this demonstrated at ``index.rst``.
+  Remove the demonstration if you do not wish to include it in
+  the published guide.
