@@ -10,24 +10,24 @@ This is a guide to XXexampleXX.
 
 ``.. include:: /_common/warning-draft.txt``
 
-* :ref:`XXexampleXX-product-concepts` introduces key ideas to help you
+* :ref:`concepts` introduces key ideas to help you
   learn about XXexampleXX.
 
-* :ref:`XXexampleXX-product-actions` lists every operation XXexampleXX
+* :ref:`actions` lists every operation XXexampleXX
   can perform.
 
-* :ref:`XXexampleXX-gui` introduces you to working with XXexampleXX
+* :ref:`gui` introduces you to working with XXexampleXX
   through making choices on the Control Panel.
 
-* :ref:`XXexampleXX-cli` introduces you to working with XXexampleXX
+* :ref:`cli` introduces you to working with XXexampleXX
   by entering commands.
 
-* :ref:`XXexampleXX-api` introduces you to writing your own software to interact
+* :ref:`api` introduces you to writing your own software to interact
   with XXexampleXX.
 
 .. figure:: /_images/cloudimagesharing.png
    :alt: The producer has an independent
-   relationship with each consumer.
+         relationship with each consumer.
 
    *The producer has an independent
    relationship with each consumer.*
