@@ -8,13 +8,6 @@ your first attempt to do so in the Cloud Control Panel
 will remind you that you are beginning something new
 and point out the first step that you should take.
 
-.. figure:: /_images/cloudbigdata0clusters.png
-   :alt: The Cloud Control Panel points out how to begin
-         using a new service.
-
-   *The Cloud Control Panel points out how to begin
-   using a new service.*
-
 When Rackspace makes a new service generally available,
 all customers are given access to that service.
 When a new service is made available to you,
