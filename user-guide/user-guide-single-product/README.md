@@ -71,3 +71,11 @@ important features of the product and learn to use them.
 - update ``man_pages = [
     (master_doc, 'rackspaceXXexampleXXuserguide', u'Rackspace XXexampleXX Guide Documentation',
     [author], 1)]`` to create a manual page structure
+
+**_toc.rst**
+
+- update ``XXexampleXX User Guide <self>`` to show the guide's title for the
+  top of the left-hand navigation bar
+
+- update the remainder of ``toc.rst`` to list sections in the order they should
+  appear in the left-hand navigation bar
