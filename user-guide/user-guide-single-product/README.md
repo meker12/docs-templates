@@ -89,6 +89,19 @@ important features of the product and learn to use them.
   Remove the demonstration if you do not wish to include it in
   the published guide.
 
+**everywhere**
+
+- Look for occurrences of ``XXexampleXX`` and replace those with
+  filenames and content
+  appropriate for this guide.
+
+- Replace general-purpose sample content,
+  borrowed from other user guides, with content
+  directly relevant to this guide.
+
+  For example, replace the problem-solving guidance in troubleshoot.rst
+  with specific suggestions for solving problems with *this* product.
+
 ### Parts that assemble your content
 
 **conf.py**
