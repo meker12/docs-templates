@@ -27,6 +27,7 @@ Copy all the parts from this folder to your own GitHub repo,
 then customize them there to present your own content.
 
 **index.rst**
+
 This is the starting point for a guide to
 one product.
 ``index.rst`` shapes the guide
@@ -53,4 +54,39 @@ important features of the product and learn to use them.
 
 **conf.py**
 
-MORE COMING SOON
+- update ``project = u'Rackspace XXexampleXX User Guide'`` to namee this project
+
+- update the ``extlinks`` list to provide full URLs abbreviated references for
+  sites outside this guide that you link to repeatedly
+
+- update ``html_short_title = 'XXexampleXX Guide'`` to name this guide
+
+- update ``htmlhelp_basename = 'XXexampleXXGuidedoc'`` to name this document
+
+- update ``latex_documents = [
+  (master_doc, 'RackspaceXXexampleXXGuide.tex',
+  u'Rackspace XXexampleXX Guide Documentation',
+  u'Rackspace', 'manual'),]`` to create a LaTex document tree structure
+
+- update ``man_pages = [
+    (master_doc, 'rackspaceXXexampleXXuserguide', u'Rackspace XXexampleXX Guide Documentation',
+    [author], 1)]`` to create a manual page structure
+
+**_toc.rst**
+
+- update ``XXexampleXX User Guide <self>`` to show the guide's title for the
+  top of the left-hand navigation bar
+
+- update the remainder of ``toc.rst`` to list sections in the order they should
+  appear in the left-hand navigation bar
+
+**_deconst.json**
+
+- update ``"contentIDBase": "https://github.com/rackerlabs/XXexampleXX/"``
+  to identify the GitHub repository containing this guide's doc source
+
+**.travis.yml**
+
+- This file has credentials for production and staging servers,
+  and for notifications in Slack.
+  I don't know how to generate them.

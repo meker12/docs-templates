@@ -4,8 +4,8 @@
 Rackspace Guide to XXexampleXX
 ==============================
 
-Introduction
-------------
+*Last updated:* |today|
+
 This is a guide to XXexampleXX.
 
 * :ref:`XXexampleXX-product-concepts` introduces key ideas to help you
