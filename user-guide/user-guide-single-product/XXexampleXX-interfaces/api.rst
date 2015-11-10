@@ -1,4 +1,4 @@
-.. _cloud-interfaces-api:
+.. _api:
 
 ---------------------------------------
 API and SDK: Developer and DevOps tools
