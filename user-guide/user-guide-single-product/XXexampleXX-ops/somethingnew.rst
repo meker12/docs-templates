@@ -5,8 +5,8 @@ Trying something new
 --------------------
 If you have never used a particular service before,
 your first attempt to do so in the Cloud Control Panel
-will remind you that you are beginning something new
-and point out the first step that you should take.
+reminds you that you are beginning something new
+and points out the first step that you should take.
 
 When Rackspace makes a new service generally available,
 all customers are given access to that service.
