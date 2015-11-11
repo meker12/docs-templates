@@ -1,4 +1,4 @@
-.. _cloud-interfaces-api:
+.. _api:
 
 ---------------------------------------
 API and SDK: Developer and DevOps tools
@@ -16,7 +16,11 @@ Software Development Kits
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Rackspace supports several Software Development Kits (SDKs)
 to facilitate coding in popular programming languages.
-You learn about SDKs at
+SDKs demonstrate basic operations in multiple languages;
+you may find useful examples that you can adapt to your own purpose,
+even if an SDK does not include an example of exactly what you plan to do.
+
+You can learn about SDKs at
 :rax-dev-quickstart:`SDK Quick Starts <cloud-servers/getting-started/>`.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
