@@ -18,7 +18,7 @@ first tasks:
 
 * :kc-article:`Obtain your API key <view-and-reset-your-api-key>`
   for use with
-  :ref:`CLIs <cli>`,
+  :ref:`CLIs <cli>` and
   :ref:`APIs <api>`.
 
 * :kc-article:`Create additional account users <managing-role-based-access-control-rbac>`
