@@ -8,7 +8,7 @@ Rackspace Guide to XXexampleXX
 
 This is a guide to XXexampleXX.
 
-``.. include:: /_common/warning-draft.txt``
+.. include:: /_common/warning-draft.txt 
 
 * :ref:`concepts` introduces key ideas to help you
   learn about XXexampleXX.

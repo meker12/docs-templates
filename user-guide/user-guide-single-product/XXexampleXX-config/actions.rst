@@ -20,12 +20,12 @@ within the same operating system family (Windows or Linux).
 Your public and ServiceNet IP addresses are retained.
 All data and disk formatting is lost.
 
-For details and examples, click the name of the interface you want to use.
+.. TIP::
+   For details and examples, click the name of the interface you want to use:
 
-+-----------------------------------------------------------------------------+------------------------------------------------------------+-----------------------------------------------+
-| :kc-article:`Control Panel <managing-your-server-rebuild-a-cloud-server>`__ | :rax-dev-docs:`CLI <rack-cli/services/servers/#rebuild>`__ | :rax-api:`API <api-ref.html#rebuildServer>`__ |
-+-----------------------------------------------------------------------------+------------------------------------------------------------+-----------------------------------------------+
-
+   * :kc-article:`Control Panel <managing-your-server-rebuild-a-cloud-server>`
+   * :rax-dev-docs:`CLI <rack-cli/services/servers/#rebuild>`
+   * :rax-api:`API <api-ref.html#rebuildServer>`
 
 Delete
 ------
@@ -34,6 +34,9 @@ from the disk of a deleted server.
 
 For details and examples, click the name of the interface you want to use.
 
-+---------------------------------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------+
-| :kc-article:`Control Panel <managing-your-server-deleting-your-cloud-server>`__ | :rax-dev-docs:`CLI <rack-cli/services/servers/#delete>`__ | :rax-api:`API <api-ref.html#deleteServer>`__ |
-+---------------------------------------------------------------------------------+-----------------------------------------------------------+----------------------------------------------+
+.. TIP::
+   For details and examples, click the name of the interface you want to use:
+
+   * :kc-article:`Control Panel <managing-your-server-deleting-your-cloud-server>`
+   * :rax-dev-docs:`CLI <rack-cli/services/servers/#delete>`
+   * :rax-api:`API <api-ref.html#deleteServer>`
