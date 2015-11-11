@@ -5,8 +5,8 @@ Trying something new
 --------------------
 If you have never used a particular service before,
 your first attempt to do so in the Cloud Control Panel
-will remind you that you are beginning something new
-and point out the first step that you should take.
+reminds you that you are beginning something new
+and points out the first step that you should take.
 
 .. figure:: /_images/cloudbigdata0clusters.png
    :alt: The Cloud Control Panel points out how to begin
