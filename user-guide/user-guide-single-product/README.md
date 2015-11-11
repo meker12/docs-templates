@@ -21,8 +21,8 @@ Alternatives
 If this template is not a good match for the user guide you intend to create,
 examine the other templates in /docs-templates/user-guide.
 
-Customization instructions
---------------------------
+Customizing your guide
+----------------------
 Copy all the parts from this folder to your own GitHub repo,
 then customize them to present your own content as noted here.
 
@@ -43,9 +43,6 @@ important features of the product and learn to use them.
   readers encounter elsewhere in their experiences at Rackspace,
   especially in control panels.
 
-- Create a contact-us page with instructions for readers
-  who have suggestions or questions (``:ref:``).
-
 - Create pages or sections
   introducing the guide itself,
   introducing the product covered in the guide,
@@ -56,6 +53,52 @@ important features of the product and learn to use them.
 
   Make these consistent with the navigation structure you describe
   in ``_toc.rst``.
+
+**contactus.rst**
+
+- Customize a contact-us page (/XXexampleXX-guide-intro/contactus.rst)
+  with instructions for readers
+  who have suggestions or questions (``:ref:``).  
+
+**bestpractice.rst**
+
+- Customize a best-practices page (/XXexampleXX-ops/bestpractice.rst)
+  with advice about choosing wisely among available options.
+  If you publish that advice elsewhere, such as in a blog, link to that here.
+
+**keepup.rst**
+
+- Customize a keeping-up page (/XXexampleXX-ops/keepup.rst)
+  with advice about maintaining awareness of change.
+  If you provide release notes, a news feed, a blog,
+  or some other means of notifying
+  users of changes and new ideas, link to that here.
+
+**limits.rst**
+
+- Customize a limits page (/XXexampleXX-ops/limits.rst)
+  with details about rate limits, absolute limits, spending limits,
+  or any other usage rules that can cause otherwise-valid operations to fail.
+  If you provide a method for users to query or change their limits,
+  explain or link to that here.
+
+**somethingnew.rst**
+
+- Customize a something-new page (/XXexampleXX-ops/somethingnew.rst)
+  with details about how first-time use differs from ongoing operation.
+
+**support.rst**
+
+- Customize a support page (/XXexampleXX-ops/support.rst)
+  with instructions about how to get help from Rackspace.
+  If support can involve fees or is limited to specific hours or is controlled by
+  a Service Level Agreement (SLA) or is only available to customers who have
+  signed up for it, explain that here.
+
+**troubleshoot.rst**
+
+- Customize a troubleshooting page (/XXexampleXX-ops/troubleshoot.rst)
+  with instructions about how to investigate and resolve problems.
 
 **/_images/**
 
@@ -146,3 +189,41 @@ important features of the product and learn to use them.
 - This file has credentials for production and staging servers,
   and for notifications in Slack.
   I don't know how to generate them.
+
+Building your guide
+-------------------
+With sphinx installed in a virtual environment for your terminal session
+(as described at
+https://github.com/rackerlabs/docs-core-infra-user-guide/blob/master/README.md),
+do this in your terminal session:
+
+- ``cd`` to your local copy of the guide's doc source repository
+- ``make html``
+
+This builds your RST source into HTML in your local copy of the doc
+source directory.
+
+In your local copy of the doc source repository,
+open ``/_build/html/index.html`` to see a rough approximation of the guide's
+published form. This approximation is close enough to allow you to confirm basic
+integrity (links work, images are included) but omits most formatting.
+
+To see a local copy of the guide formatted as it will be
+when published at developer.rackspace.com, install and use the deconst client
+as instructed at https://github.com/deconst/client/blob/master/README.md.
+
+Publishing your guide
+---------------------
+For initial setup, contact devdoc@rackspace.com to ask for help.
+Pre-publication help is likely to come in two forms:
+- with the DevEx team, establishing a connection between your guide's
+  GitHub repository
+  and the deconst engine that builds source into publishable documents
+- with the DevDoc team, editing the guide to ensure it meets standards for
+  Rackspace technical documentation and establishing an editorial review process
+  for ongoing development of the guide
+
+After your guide is published at developer.rackspace.com/docs/user-guides/,
+changes to the master branch of the guide's doc source repository in GitHub
+are tracked; merging a pull request into the master branch
+causes the guide to be rebuilt and republished.
