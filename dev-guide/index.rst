@@ -1,13 +1,13 @@
 .. _index:
 
 ====================================
-Cloud Big Data API, v2.0
+|product name|, |contract version|
 ====================================
 
 *Last updated:* |today|
 
-Use the following links to get user and reference information for using the Rackspace Cloud Databases service 
-REST API. 
+Use the following links to get user and reference information for using the |product name| 
+Rackspace Cloud Databases service REST API. 
 
 - :ref:`Developer Guide <developer-guide>`
 - :ref:`API Reference <api-reference>`

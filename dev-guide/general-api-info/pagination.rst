@@ -4,7 +4,9 @@
 Pagination
 ==========
 
-Pagination provides the ability to limit the size of the returned data in the response body as well as retrieve a specified subset of a large data set. Pagination has two key concepts: *limit* and *marker*.
+Pagination provides the ability to limit the size of the returned data in the response 
+body as well as retrieve a specified subset of a large data set. Pagination has two 
+key concepts: *limit* and *marker*.
 
 -  ``limit`` is the restriction on the maximum number of items for that type that can be returned.
 

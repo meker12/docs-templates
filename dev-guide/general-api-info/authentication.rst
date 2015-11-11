@@ -4,7 +4,7 @@
 Authentication
 ==============
 
-Each REST request against the Cloud Big Data service requires the inclusion of a specific 
+Each REST request against the |product name| service requires the inclusion of a specific 
 authorization token, supplied in the ``X-Auth-Token`` HTTP header. Customers obtain this 
 token by first using the Rackspace Cloud Identity service and supplying a valid user name 
 and API access key.
@@ -32,7 +32,8 @@ Cloud Control Panel to obtain your API key.
     If you authenticate with username and password credentials, you can use multi-factor 
     authentication to add an additional level of account security. This feature is not 
     implemented for username and API credentials. For more information, 
-    see :rax-devdocs:`Multi-factor authentication<cloud-identity/v2/developer-guide/#document-authentication-info/use-mfa-ops>`  
+    see :rax-devdocs:
+    `Multi-factor authentication<cloud-identity/v2/developer-guide/#document-authentication-info/use-mfa-ops>`  
     in the *Cloud Identity Client Developer Guide*.
 
 .. _Rackspace Cloud control panel: https://mycloud.rackspace.com/
@@ -111,8 +112,8 @@ send the token to a service.
 
 #. Use the authentication token to send a **GET** request to a service that you want to use.
 
-   The following example shows passing an authentication token to the Cloud Big Data service by 
-   using the Cloud Big Data service catalog endpoint that was returned along with the token.
+   The following example shows how to pass an authentication token to the |apiservice| by 
+   using the token and |product name| endpoint that was returned in the service catalog.
 
    **Example: cURL get distros request: JSON**
 

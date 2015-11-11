@@ -4,15 +4,16 @@ Additional resources
 ~~~~~~~~~~~~~~~~~~~~~~
 
 We welcome feedback, comments, and bug reports. Visit the Rackspace customer portal 
-at https://feedback.rackspace.com/. You can email all support questions to cbdteam@rackspace.com.
+at https://feedback.rackspace.com/. You can email all support questions to 
+|product support email|.
 
 The `Rackspace Cloud website`_ offers information about Rackspace Cloud products, 
 links to official Rackspace support channels, including knowledge base articles, 
 forums, phone, chat, and email.
 
-Use the links below to learn more about using the Rackspace Cloud Big Data service and API.
+Use the links below to learn more about using the |product name| service and API.
 
-- For general information about Cloud Big Data, see the `Cloud Big Data FAQ`_ 
+- For general information about |product name|, see the FAQ. 
   in the Rackspace Knowledge Center.
     
 - To get information about other Rackspace Cloud services APIs, see the
@@ -22,15 +23,12 @@ Use the links below to learn more about using the Rackspace Cloud Big Data servi
 
 - Follow Rackspace updates and announcements `on Twitter`_. 
 
-.. _Cloud Big Data FAQ: http://www.rackspace.com/knowledge_center/product-faq/cloud-big-data
 
 .. _Rackspace API Documentation: https://developer.rackspace.com/docs/
 
 .. _Software Development Kits & Tools: https://developer.rackspace.com/docs/#sdks
 
 .. _Rackspace Cloud website: http://www.rackspace.com/cloud/
-
-.. _Getting Started with Rackspace Cloud Big Data: http://docs.rackspace.com/api/
 
 .. _on Twitter: http://www.twitter.com/rackspace
 
