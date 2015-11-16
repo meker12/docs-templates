@@ -44,11 +44,11 @@ The Rackspace build and deploy platform also supports Jekyll projects for other 
 
 You can build deliverables based on these templates using any of the following options:
 
-- Local builds with default Sphinx template
+- Local builds with default Sphinx template.
   Use the Sphinx build make utility to get output rendered 
   with the default Sphinx templates and interface. 
 
-- Local preview with Rackspace branding and UX
+- Local preview with Rackspace branding and UX.
   Install and use the [Deconst local client](https://github.com/deconst/client).
 
 - For server builds and production deployment, contact the Developer documentation team for information on build 
