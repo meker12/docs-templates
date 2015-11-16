@@ -54,6 +54,17 @@ You can build deliverables based on these templates using any of the following o
 - For server builds and production deployment, contact the Developer documentation team for information on build 
   integration options and how to wire content into the [Docs landing page](https://developer.rackspace.com/docs/) on 
   developer.rackspace.com. 
+  
+  The process to add a deliverable to production, requires the following resources:
+
+  - _deconst.json file that defines the contentID for the project. (*Example:* [Cloud Files _deconst.json](https://github.com/rackerlabs/docs-cloud-files/blob/master/rst/dev-guide/_deconst.json)) 
+  
+  - build configuration script  (*Example:* [Cloud files cibuild](https://github.com/rackerlabs/docs-cloud-files/tree/master/script))
+  
+  - Build integration script for Travis or another CI tool.  (*Example:* [Cloud Files](https://github.com/rackerlabs/docs-cloud-files/blob/master/.travis.yml))
+  
+  - Configure the content and routes in the [Control Repository](https://github.com/rackerlabs/nexus-control) config directory.  This step also specifies the templates to apply to the content.
+   
 
 ####Docbook templates (Deprecated)
 
