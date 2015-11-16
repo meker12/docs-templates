@@ -1,15 +1,14 @@
 
-###Rackspace doc templates
+##Rackspace doc templates
 
-Use the templates in this library to create developer and user 
+Use these templates to create developer and user 
 documentation that is compatible with the [Rackspace documentation 
 build and deploy platform](https://github.com/deconst). 
 
-####Sphinx templates
+###Sphinx templates
 
 Documentation is authored and built locally using the Sphinx documentation generator with 
-source files in restructured text format which is the same technology behind content 
-delivered by using ReadtheDocs.
+source files in restructured text format.
 
 **User Guide template**
 
@@ -33,14 +32,14 @@ Sphinx documentation project to create a Developer Guide for a a service API lik
   - API Reference
   - Release Notes
 
-####Jekyll templates
+###Jekyll templates
 
 The Rackspace build and deploy platform also supports Jekyll projects for other types of documentation content. For sample projects, see the following repositories:
 
 - [Developer blog](https://github.com/rackerlabs/docs-developer-blog)
 - [Carina documentation](https://https://github.com/getcarina/getcarina.com)
 
-##Build and deploy
+##Build and deploy Sphinx project
 
 You can build deliverables based on these templates using any of the following options:
 
@@ -63,7 +62,9 @@ You can build deliverables based on these templates using any of the following o
   
   - Build integration script for Travis or another CI tool.  (*Example:* [Cloud Files](https://github.com/rackerlabs/docs-cloud-files/blob/master/.travis.yml))
   
-  - Configure the content and routes in the [Control Repository](https://github.com/rackerlabs/nexus-control) config directory.  This step also specifies the templates to apply to the content.
+  - Configure content and routes in the [Control Repository](https://github.com/rackerlabs/nexus-control) config directory.  This step also specifies the templates to apply to the content.
+  
+  - Update the [docs landing page](https://developer.rackspace.com/docs/) to add new content. (*Source*: [docs-quickstart repo](https://github.com/rackerlabs/docs-quickstart/blob/master/index.rst))
    
 
 ####Docbook templates (Deprecated)
