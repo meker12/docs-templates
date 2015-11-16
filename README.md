@@ -49,7 +49,7 @@ You can build deliverables based on these templates using any of the following o
   with the default Sphinx templates and interface. 
 
 - Local preview with Rackspace branding and UX
-  Install and use the [Deconst local client](https://github.com/deconst/client].
+  Install and use the [Deconst local client](https://github.com/deconst/client).
 
 - For server builds and production deployment, contact the Developer documentation team for information on build 
   integration options and how to wire content into the [Docs landing page](https://developer.rackspace.com/docs/) on 
