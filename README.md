@@ -12,7 +12,7 @@ source files in restructured text format.
 
 **User Guide template**
 
-Sphinx documentation project to create a User for a Rackspace service or product offering.
+Sphinx documentation project to create a User Guide for a Rackspace service or product offering.
 
 - Audience: Service consumers that want to use the product through the Cloud Control panel.
    
@@ -24,7 +24,7 @@ Sphinx documentation project to create a Developer Guide for a a service API lik
 [Cloud CDN API documentation](https://developer.rackspace.com/docs/cdn/v1/developer-guide/).
 
 - Audience:  Application developers, operations, advanced users who want to use API services by 
-  using submitting API requests from the command line or by using CLI technologies.
+   submitting API requests from the command line or by using CLI technologies.
   
 - Contents: A single-page html content architecture with the following sections: 
   - Developer Guide
@@ -54,13 +54,13 @@ You can build deliverables based on these templates using any of the following o
   integration options and how to wire content into the [Docs landing page](https://developer.rackspace.com/docs/) on 
   developer.rackspace.com. 
   
-  The process to add a deliverable to production, requires the following resources:
+  **Required resources for production builds**
 
-  - _deconst.json file that defines the contentID for the project. (*Example:* [Cloud Files _deconst.json](https://github.com/rackerlabs/docs-cloud-files/blob/master/rst/dev-guide/_deconst.json)) 
+  - ``_deconst.json`` file that defines the contentID for the project. (*Example:* [Cloud Files _deconst.json](https://github.com/rackerlabs/docs-cloud-files/blob/master/rst/dev-guide/_deconst.json)) 
   
   - build configuration script  (*Example:* [Cloud files cibuild](https://github.com/rackerlabs/docs-cloud-files/tree/master/script))
   
-  - Build integration script for Travis or another CI tool.  (*Example:* [Cloud Files](https://github.com/rackerlabs/docs-cloud-files/blob/master/.travis.yml))
+  - Build integration script for Travis or another CI tool.  (*Example:* [Cloud Files Travis yml script](https://github.com/rackerlabs/docs-cloud-files/blob/master/.travis.yml))
   
   - Configure content and routes in the [Control Repository](https://github.com/rackerlabs/nexus-control) config directory.  This step also specifies the templates to apply to the content.
   
