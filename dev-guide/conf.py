@@ -107,9 +107,6 @@ exclude_patterns = ['_build', 'samples', 'api-operations/methods']
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
-# Adding substitution values
-rst_epilog = """.. |product name| replace:: Rackspace Big Data"""
-
 # External link library
 extlinks = {
     'rax': ('http://www.rackspace.com/%s', ''),
