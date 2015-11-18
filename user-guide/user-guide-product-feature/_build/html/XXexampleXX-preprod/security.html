@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Tightening security &mdash; Rackspace XXexampleXX User Guide 1.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="top" title="Rackspace XXexampleXX User Guide 1.0 documentation" href="../index.html" />
+    <link rel="up" title="Preparing for productivity" href="index.html" />
+    <link rel="next" title="Establishing backups" href="backups.html" />
+    <link rel="prev" title="Preparing for productivity" href="index.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="tightening-security">
+<span id="security"></span><h1>Tightening security<a class="headerlink" href="#tightening-security" title="Permalink to this headline">¶</a></h1>
+<p>Every time you create a server, whether in the cloud or in your data
+center, configure it to disable abuse and enable your
+legitimate work. You might need to do some research to identify the
+specific steps required to secure your configuration, but the steps
+should be similar to those shown in
+<a class="reference external" href="http://www.rackspace.com/knowledge_center/article/basic-cloud-server-security">Basic Cloud Server Security</a>,
+which demonstrates the process of securing a cloud server running
+Ubuntu. For that server, the steps are as follows:</p>
+<ol class="arabic simple">
+<li>Edit the SSH <strong>known_hosts</strong> file and remove entries that point to your
+server&#8217;s IP address.</li>
+<li>Change your root password.</li>
+<li>Add an admin user.</li>
+<li>Give the admin user sudo privileges.</li>
+<li>Establish a public/private key.</li>
+<li>Set permissions for the key.</li>
+<li>Disable unused ports.</li>
+<li>Establish a firewall.</li>
+<li>Set rules for the firewall.</li>
+<li>Create a script to activate the firewall after every restart.</li>
+</ol>
+<p>Similar steps for securing cloud servers running operating systems
+based on Debian and Red Hat
+Package Manager (RPM) are described in the Cloud Launch Guide
+tutorial for
+<a class="reference external" href="https://launch.rackspace.com/guides/securing-server">Securing a Cloud Server</a>.</p>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Because security configuration can be time-consuming, it&#8217;s a good idea
+to save a copy of a clean, securely-configured cloud server that works
+well for your purpose.
+You can use Cloud Images to maintain a consistent starting point
+for future servers that you create.</p>
+</div>
+<p>Security-related offerings from Rackspace partners are listed in the
+<a class="reference external" href="https://marketplace.rackspace.com/home#!category/41">Rackspace Marketplace</a>.
+You might find one or more of these that directly addresses your specific
+security needs.</p>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Preparing for productivity</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Preparing for productivity</a></li>
+      <li>Next: <a href="backups.html" title="next chapter">Establishing backups</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/XXexampleXX-preprod/security.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2015, Rackspace.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.6</a>
+      
+      |
+      <a href="../_sources/XXexampleXX-preprod/security.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
