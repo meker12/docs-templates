@@ -42,5 +42,6 @@ References
 ----------
 For deeper background information about the solutions introduced in this section,
 refer to:
+
 - `a source <http://www.example.com>`__
 - `another source <http://www.example.com>`__

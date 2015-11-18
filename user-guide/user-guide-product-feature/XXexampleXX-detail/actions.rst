@@ -3,14 +3,8 @@
 -------------------
 XXexampleXX actions
 -------------------
-You can perform the following actions against an active, running server.
-
-To learn how to perform XXexampleXX actions by using your choice of interface,
-begin at the following sections:
-
-* :ref:`gui`
-* :ref:`cli`
-* :ref:`api`
+This is everything you can do with the XXexampleXX feature of
+the XXexampleXX product.
 
 Rebuild
 -------
