@@ -46,8 +46,11 @@ into a public-facing user guide at developer.rackspace.com/user-guides/:
 
 Other details can vary depending on circumstances,
 but you must have a valid index.rst and conf.py to begin assembling a guide.
+For help identifying what to change for the type of guide you want to build,
+follow the instructions in the README.md in the appropriate directory.
 
 Getting help
 ------------
 If you need help using these templates,
-contact devdoc@rackspace.com or post an issue in this repo.
+post an issue in this repo
+at https://github.com/rackerlabs/docs-templates/issues.
