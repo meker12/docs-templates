@@ -1,5 +1,5 @@
-Userguide template for *single product*
-=======================================
+Userguide template for *a feature of a single product*
+======================================================
 This directory contains a model of all the parts required
 to construct one type of user guide.
 
@@ -8,7 +8,7 @@ based on this model.
 These are the high-level steps to take you from the model
 to a publishable guide:
 
-- copy the entire /user-guide-single-product/ directory
+- copy the entire /user-guide-product-feature/ directory
   to wherever you want to work with it
 - install Sphinx and its prereqs
 - ``make html`` to confirm that you can build
@@ -19,16 +19,18 @@ to a publishable guide:
 
 Examples
 --------
-For example, the XXexampleXX guide is only about
-XXexampleXX (still looking for the first published example);
+For example, the Cloud Orchestration Templates guide
+is not an introduction to Cloud Orchestration overall
+but is only about
+setting up templates for Cloud Orchestration;
 one purpose of the guide is to help readers understand
-the variety of options available within XXexampleXX.
+the variety of ways that templates can be used with Cloud Orchestration.
 
 This example is published at
-https://developer.rackspace.com/docs/user-guides/XXexampleXX/.
+https://developer.rackspace.com/docs/user-guides/orchestration/.
 
 Doc source for this example is maintained at
-https://github.com/rackerlabs/XXexampleXX-user-guide/.
+https://github.com/rackerlabs/rs-heat-docs/.
 
 Alternatives
 ------------
@@ -59,11 +61,9 @@ important features of the product and learn to use them.
 
 - Create pages or sections
   introducing the guide itself,
-  introducing the product covered in the guide,
-  introducing the use of product interfaces,
-  introducing configuration options,
-  introducing pre-production hardening steps,
-  and introducing guidelines for normal operation (`` toctree::``).
+  introducing the product and product feature covered in the guide,
+  explaining the product feature in detail,
+  and demonstrating specific uses of the product feature (`` toctree::``).
 
   Make these consistent with the navigation structure you describe
   in ``_toc.rst``.
@@ -73,46 +73,6 @@ important features of the product and learn to use them.
 - Customize a contact-us page (/XXexampleXX-guide-intro/contactus.rst)
   with instructions for readers
   who have suggestions or questions (``:ref:``).  
-
-**bestpractice.rst**
-
-- Customize a best-practices page (/XXexampleXX-ops/bestpractice.rst)
-  with advice about choosing wisely among available options.
-  If you publish that advice elsewhere, such as in a blog, link to that here.
-
-**keepup.rst**
-
-- Customize a keeping-up page (/XXexampleXX-ops/keepup.rst)
-  with advice about maintaining awareness of change.
-  If you provide release notes, a news feed, a blog,
-  or some other means of notifying
-  users of changes and new ideas, link to that here.
-
-**limits.rst**
-
-- Customize a limits page (/XXexampleXX-ops/limits.rst)
-  with details about rate limits, absolute limits, spending limits,
-  or any other usage rules that can cause otherwise-valid operations to fail.
-  If you provide a method for users to query or change their limits,
-  explain or link to that here.
-
-**somethingnew.rst**
-
-- Customize a something-new page (/XXexampleXX-ops/somethingnew.rst)
-  with details about how first-time use differs from ongoing operation.
-
-**support.rst**
-
-- Customize a support page (/XXexampleXX-ops/support.rst)
-  with instructions about how to get help from Rackspace.
-  If support can involve fees or is limited to specific hours or is controlled by
-  a Service Level Agreement (SLA) or is only available to customers who have
-  signed up for it, explain that here.
-
-**troubleshoot.rst**
-
-- Customize a troubleshooting page (/XXexampleXX-ops/troubleshoot.rst)
-  with instructions about how to investigate and resolve problems.
 
 **/_images/**
 
