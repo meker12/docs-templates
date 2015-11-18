@@ -3,18 +3,32 @@ Userguide template for *single product*
 This directory contains a model of all the parts required
 to construct one type of user guide.
 
+Use the details in this README to help you develop your own guide
+based on this model.
+These are the high-level steps to take you from the model
+to a publishable guide:
+
+- copy the entire /user-guide-single-product/ directory
+  to wherever you want to work with it
+- install Sphinx and its prereqs
+- ``make html`` to confirm that you can build
+- customize your content
+- ``make html`` to confirm that your customizations build
+- merge your customized content into the master branch of your GitHub repository,
+  signaling that you are ready to have it published
+
 Examples
 --------
-For example, the Cloud Orchestration Templates guide is only about
-setting up templates for Cloud Orchestration;
+For example, the XXexampleXX guide is only about
+XXexampleXX (still looking for the first published example);
 one purpose of the guide is to help readers understand
-the variety of options available within Cloud Orchestration.
+the variety of options available within XXexampleXX.
 
 This example is published at
-https://developer.rackspace.com/docs/user-guides/orchestration/.
+https://developer.rackspace.com/docs/user-guides/XXexampleXX/.
 
 Doc source for this example is maintained at
-https://github.com/rackerlabs/rs-heat-docs/.
+https://github.com/rackerlabs/XXexampleXX-user-guide/.
 
 Alternatives
 ------------
@@ -151,7 +165,7 @@ important features of the product and learn to use them.
 
 - Update ``project = u'Rackspace XXexampleXX User Guide'`` to name this project.
 
-- Update the ``extlinks`` list to provide full URLs abbreviated references for
+- Update the ``extlinks`` list to provide full URLs and abbreviated references for
   sites outside this guide that you link to repeatedly.
 
   Even if you change nothing else in ``extlinks``,
