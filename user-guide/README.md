@@ -17,6 +17,20 @@ If you use a different outline to create a user guide
 and you can contribute that as a template here for others to use,
 please do so.
 
+*Template status as of 2015-11-18*
+
+- user-guide-single-product
+  *builds: usable*
+
+- user-guide-product-feature
+  *builds: usable*
+
+- user-guide-product-family
+  *unfinished: published Cloud Core Infrastructure guide will be basis*
+
+- user-guide-single-product
+  *unfinished: unpublished Auto Scale DIY will be basis*
+
 Finding examples
 ----------------
 Examining how other guides are constructed
