@@ -12,7 +12,8 @@ Choosing a template
 -------------------
 Release notes can be included in an API Developer Guide;
 if this is what you intend,
-follow the template in /dev-guide/release-notes/ in this repo.
+follow the template
+in [/dev-guide/release-notes/](../dev-guide/release-notes/) in this repo.
 
 Release notes can be published as a standalone document;
 if this is what you intend,
@@ -32,12 +33,13 @@ Published release notes within a developer guide:
 * if you have other great examples, add them
 
 Doc source for release notes as a standalone document:
-* ?
+* *under construction at https://github.com/everett-toews/getcarina.com/blob/release-notes/_getting-started/010-release-notes.md*
 
 Published release notes as a standalone document:
-* ?
+* *to be published at https://getcarina.com/*
 
 Getting help
 ------------
 If you need help using these templates,
-contact devdoc@rackspace.com or post an issue in this repo.
+post an issue in this repo
+at https://github.com/rackerlabs/docs-templates/issues.
