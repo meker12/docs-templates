@@ -6,6 +6,11 @@ GitHub issues or pull requests.
 
 Choosing a template
 -------------------
+Each file in this directory describes the shape of a content fragment that is
+commonly used within userguides.
+Nothing in this directory is meant to be buildable or publishable as a standalone
+document.
+
 - Use *troubleshooting.md* as the basis of advice about recognizing, correcting,
   and preventing problems.
 
@@ -28,3 +33,21 @@ Choosing a template
 - Other models for fragmentary contributions?
 
   Other examples of those fragments assembled into a document and published?
+
+Contributing fragmentary content
+--------------------------------
+In the GitHub repo for the userguide you want to contribute to,
+create an issue suggesting the improvement you want to make.
+If you are actively working on that improvement, assign the issue to yourself.
+
+Choose the template that most resembles the type of fragment you want to contribute.
+Make a local copy and customize it.
+
+If you can find the place within
+the userguide's repo to place your new content
+and you know how to make a GitHub pull request,
+place your new content on the appropriate page and submit a pull request
+asking for editing and publication.
+
+Otherwise,
+paste your customized content into the issue you created. 
