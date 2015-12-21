@@ -32,7 +32,7 @@ Release notes *within a developer guide*:
 Release notes *as a standalone document*:
 * doc source at https://github.com/getcarina/getcarina.com/blob/master/_reference/2015-10-17-release-notes.md
 * published at https://getcarina.com/docs/reference/release-notes/ 
-* * if you have other great examples, add them
+* if you have other great examples, add them
 
 Getting help
 ------------
