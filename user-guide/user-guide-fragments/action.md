@@ -9,12 +9,13 @@ All data and disk formatting is lost.
 .. seealso::
 
    Learn how to perform this action with the interface of your choice:
+   
+   .. hlist::
+      :columns: 3
 
-   * :kc-article:`Cloud Control Panel
-     <managing-your-server-rebuild-a-cloud-server>`.
-
-   * :rax-dev-docs:`Rackspace CLI
-     </rack-cli/services/servers/#rebuild>`.
-
-  * :rax-api:`your own software
-    <api-ref.html#rebuildServer>`. 
+      * :kc-article:`Cloud Control Panel
+        <managing-your-server-rebuild-a-cloud-server>`.
+      * :rax-dev-docs:`Rackspace CLI
+        </rack-cli/services/servers/#rebuild>`.
+      * :rax-api:`your own software
+        <api-ref.html#rebuildServer>`. 
