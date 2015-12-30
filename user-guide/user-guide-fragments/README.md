@@ -8,8 +8,10 @@ Choosing a template
 -------------------
 Each file in this directory describes the shape of a content fragment that is
 commonly used within userguides.
+
 Nothing in this directory is meant to be buildable or publishable as a standalone
-document.
+document. For examples of complete, buildable guides, look elsewhere within
+the /user-guide/ directory. 
 
 - Use *action.rst* as the basis of an explanation of one action that can be
   performed by one service.

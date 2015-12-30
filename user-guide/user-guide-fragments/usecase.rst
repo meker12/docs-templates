@@ -1,5 +1,7 @@
-This is not even a draft template yet;
-this is notes about similar Rackspace publications that may be inspirational.
+.. Suggest a use case by ...
+
+   This is not even a draft template yet;
+   this is notes about similar Rackspace publications that may be inspirational.
 
 ----
 
