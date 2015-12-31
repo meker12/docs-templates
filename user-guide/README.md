@@ -17,19 +17,32 @@ If you use a different outline to create a user guide
 and you can contribute that as a template here for others to use,
 please do so.
 
-*Template status as of 2015-11-18*
+*Template status as of 2015-12-30*
 
-- user-guide-single-product
-  *builds: usable*
+- user-guide-fragments
 
-- user-guide-product-feature
-  *builds: usable*
+  - *not intended to build; usable*
+  - details in README at https://github.com/rackerlabs/docs-templates/blob/master/user-guide/user-guide-fragments/README.md
 
 - user-guide-product-family
-  *unfinished: published Cloud Core Infrastructure guide will be basis*
+
+  - *unfinished: published Cloud Core Infrastructure guide will be basis*
+  - details in README at https://github.com/rackerlabs/docs-templates/blob/master/user-guide/user-guide-product-family/README.md
+
+- user-guide-product-feature
+
+  - *builds: usable*
+  - details in README at https://github.com/rackerlabs/docs-templates/blob/master/user-guide/user-guide-product-feature/README.md
+
+- user-guide-product-plus-prereqs
+
+  - *unfinished: unpublished Auto Scale DIY will be basis*
+  - details in README at https://github.com/rackerlabs/docs-templates/blob/master/user-guide/user-guide-product-plus-prereqs/README.md
 
 - user-guide-single-product
-  *unfinished: unpublished Auto Scale DIY will be basis*
+
+  - *builds: usable*
+  - details in README at https://github.com/rackerlabs/docs-templates/blob/master/user-guide/user-guide-single-product/README.md
 
 Finding examples
 ----------------
@@ -43,6 +56,7 @@ Doc source for user guides:
 
 Published user guides:
 * https://developer.rackspace.com/docs/user-guides/
+* https://developer.rackspace.com/docs/user-guides/orchestration/
 
 Beginning to build your guide
 -----------------------------
