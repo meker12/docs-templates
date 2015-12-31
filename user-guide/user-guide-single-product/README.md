@@ -19,21 +19,26 @@ to a publishable guide:
 
 Examples
 --------
+**Nothing built from this template has been published yet.
+Single-product Getting Started guides in the Knowledge Center,
+such as https://www.rackspace.com/knowledge_center/article/getting-started-with-rackspace-intelligence,
+are candidates for reformatting to this model.**
+
 For example, the XXexampleXX guide is only about
 XXexampleXX (still looking for the first published example);
 one purpose of the guide is to help readers understand
 the variety of options available within XXexampleXX.
 
 This example is published at
-https://developer.rackspace.com/docs/user-guides/XXexampleXX/.
+*nowhere yet*.
 
 Doc source for this example is maintained at
-https://github.com/rackerlabs/XXexampleXX-user-guide/.
+*nowhere yet*.
 
 Alternatives
 ------------
 If this template is not a good match for the user guide you intend to create,
-examine the other templates in /docs-templates/user-guide.
+examine the other templates in /docs-templates/user-guide/.
 
 Customizing your guide
 ----------------------
