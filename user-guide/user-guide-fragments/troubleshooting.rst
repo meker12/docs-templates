@@ -1,3 +1,6 @@
+.. Explain how to tell what's going wrong and
+   what to do to correct the problem after you know what's wrong.
+
 Title
 -----
 

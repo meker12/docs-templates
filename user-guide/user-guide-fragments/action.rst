@@ -1,3 +1,7 @@
+.. Describe one action that one service can perform.
+   Link to detailed explanations of how to perform that action through
+   any available interfaces.
+
 Rebuild
 -------
 The rebuild action rebuilds a server on the same physical host with
@@ -9,7 +13,7 @@ All data and disk formatting is lost.
 .. seealso::
 
    Learn how to perform this action with the interface of your choice:
-   
+
    .. hlist::
       :columns: 3
 
@@ -18,4 +22,4 @@ All data and disk formatting is lost.
       * :rax-dev-docs:`Rackspace CLI
         </rack-cli/services/servers/#rebuild>`.
       * :rax-api:`your own software
-        <api-ref.html#rebuildServer>`. 
+        <api-ref.html#rebuildServer>`.
