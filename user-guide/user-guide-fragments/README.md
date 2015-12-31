@@ -11,30 +11,30 @@ commonly used within userguides.
 
 Nothing in this directory is meant to be buildable or publishable as a standalone
 document. For examples of complete, buildable guides, look elsewhere within
-the /user-guide/ directory. 
+the /user-guide/ directory.
 
-- Use *action.rst* as the basis of an explanation of one action that can be
+- Use *action.rst* as a model of an explanation of one action that can be
   performed by one service.
 
   Contributions shaped like this are published at
   https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-config/compute/cloud-servers-product-actions/#resize
   and similar pages.
 
-- Use *bestpractice.rst* as the basis of proactive advice about
+- Use *bestpractice.rst* as a model of proactive advice about
   establishing a healthy and optimal configuration.
 
   Contributions shaped like this are published at
   https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-ops/bestpractice/
   and similar pages.
 
-- Use *troubleshooting.rst* as the basis of reactive advice about
+- Use *troubleshooting.rst* as a model of reactive advice about
   recognizing and correcting problems and preventing re-occurences of problems.
 
   Contributions shaped like this are published at
   https://developer.rackspace.com/docs/user-guides/infrastructure/cloud-ops/troubleshoot/
   and similar pages.
 
-- Use *usecase.rst* as the basis of instructions for setting up a configuration
+- Use *usecase.rst* as a model of instructions for setting up a configuration
   for a specific purpose.
 
   Contributions shaped like this are published at
