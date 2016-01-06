@@ -19,10 +19,12 @@ to a publishable guide:
 
 Examples
 --------
-**Nothing built from this template has been published yet.
-Single-product Getting Started guides in the Knowledge Center,
-such as https://www.rackspace.com/knowledge_center/article/getting-started-with-rackspace-intelligence,
-are candidates for reformatting to this model.**
+**Nothing built from this template has been published yet.**
+
+* Single-product Getting Started guides in the Knowledge Center,
+  such as https://www.rackspace.com/knowledge_center/article/getting-started-with-rackspace-intelligence,
+  are candidates for reformatting to this model.
+* The Dedicated Load Balancer user guide is under construction at    https://github.com/rackerlabs/docs-dedicated-loadbalancers-user-guide based on this model. 
 
 For example, the XXexampleXX guide is only about
 XXexampleXX (still looking for the first published example);
