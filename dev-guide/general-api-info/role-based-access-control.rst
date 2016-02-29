@@ -1,17 +1,17 @@
 .. _rbac:
 
-=========================
+==========================
 Role Based Access Control
-=========================
+==========================
 
 Role Based Access Control (RBAC) restricts access to the capabilities of Rackspace Cloud 
-services, including the Cloud Big Data API, to authorized users only. RBAC enables Rackspace 
+services, including the |product name| API, to authorized users only. RBAC enables Rackspace 
 Cloud customers to specify which account users of their Cloud account have access to which 
-Cloud Big Data API service capabilities, based on :ref:`roles defined by Rackspace <rbac-available>`.
+|apiservice| capabilities, based on :ref:`roles defined by Rackspace <rbac-available>`.
 
 The permissions to perform certain operations in Cloud Big Data API&mdash;create, read, update, delete&mdash;are assigned to specific roles, and these roles can be assigned by the Cloud account admin user to account users of the account.
 
-.. _cbd-dgv2-rbac-assigning:
+.. _rbac-assigning:
 
 Assigning roles to account users
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -32,10 +32,11 @@ See the *Cloud Identity Client Developer Guide* for information about how to per
 
 .. _rbac-available: 
 
-Roles available for Cloud Big Data
+Roles available for |product name|
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Three roles (admin, creator, and observer) can be used to access the Cloud Big Data API specifically. The following table describes these roles and their permissions.
+Three roles (admin, creator, and observer) can be used to access the |product name| 
+API specifically. The following table describes these roles and their permissions.
 
 +--------------------------------------+--------------------------------------+
 | Role name                            | Role permissions                     |
@@ -74,7 +75,11 @@ Additionally, two multiproduct roles apply to all products. Users with multiprod
 Resolving conflicts between RBAC multiproduct vs. custom (product-specific) roles
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The account owner can set roles for both multiproduct and Cloud Big Data scope, and it is important to understand how any potential conflicts among these roles are resolved. When two roles appear to conflict, the role that provides the more extensive permissions takes precedence. Therefore, admin roles take precedence over observer and creator roles, because admin roles provide more permissions.
+The account owner can set roles for both multiproduct and |product name| scope, and it 
+is important to understand how any potential conflicts among these roles are resolved. 
+When two roles appear to conflict, the role that provides the more extensive permissions 
+takes precedence. Therefore, admin roles take precedence over observer and creator roles, 
+because admin roles provide more permissions.
 
 The following table shows two examples of how potential conflicts between user roles in the Control Panel are resolved:
 
@@ -96,9 +101,11 @@ The following table shows two examples of how potential conflicts between user r
 
 .. _rbac-permissions:
 
-RBAC permissions cross-reference to Cloud Big Data API operations
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+RBAC permissions cross-reference to |product name| API operations
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-API operations for Cloud Big Data may or may not be available to all roles. To see which operations are permitted to invoke which calls, please review the `Permissions Matrix for Role-Based Access Control`_.
+API operations for |product name| may or may not be available to all roles. To see which 
+operations are permitted to invoke which calls, please review the 
+`Permissions Matrix for Role-Based Access Control`_.
 
 .. _Permissions Matrix for Role-Based Access Control: http://www.rackspace.com/knowledge_center/article/permissions-matrix-for-role-based-access-control-rbac

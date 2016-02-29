@@ -4,7 +4,7 @@
 Faults
 ======
 
-When an error occurs, the Cloud Big Data service returns a fault object that contains 
+When an error occurs, the |apiservice| returns a fault object that contains 
 an HTTP error response code that denotes the type of error. In the body of the response, 
 the system will return additional information about the fault.
 

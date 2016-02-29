@@ -1,14 +1,15 @@
-.. _cbd-dgv2-datetime:
+.. _datetime-format:
 
 ====================
 Date and time format
 ====================
 
-For the display and consumption of date and time values, the Cloud Big Data service uses a date format that complies with ISO 8601.
+For the display and consumption of date and time values, the |apiservice| uses 
+a date format that complies with ISO 8601.
 
 The system time is expressed as UTC.
  
-**Example: Cloud Big Data service date and time format**
+**Example:** |product name| service date and time format
 
 .. code::  
 
